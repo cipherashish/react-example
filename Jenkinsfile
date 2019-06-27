@@ -8,7 +8,8 @@ pipeline
      } 
           stage('Test'){
         steps{
-       sh('npm Test'}
+       sh('npm Test')
+        }
      } 
    }
 }
